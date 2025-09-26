@@ -1,0 +1,45 @@
+# React + Django Web Application
+# Requirements for the complete project
+
+# ================================
+# BACKEND REQUIREMENTS (Python)
+# ================================
+# Para instalar: cd backend && pip install -r requirements.txt
+
+# Django Framework
+Django==5.2.6
+djangorestframework==3.16.1
+django-cors-headers==4.9.0
+
+# ================================
+# FRONTEND REQUIREMENTS (Node.js)
+# ================================
+# Para instalar: cd frontend && npm install
+
+# React (gerenciado pelo package.json)
+# - React 18
+# - TypeScript
+# - axios para HTTP requests
+
+# ================================
+# INSTALAÇÃO COMPLETA
+# ================================
+
+# 1. Backend (Python/Django):
+#    cd backend
+#    pip install pipenv
+#    pipenv install  # ou pip install -r requirements.txt
+#    pipenv run python manage.py migrate
+#    pipenv run python manage.py runserver
+
+# 2. Frontend (Node.js/React):
+#    cd frontend
+#    npm install
+#    npm start
+
+# ================================
+# VERSÕES TESTADAS
+# ================================
+# Python: 3.13.2
+# Node.js: 16+
+# npm: Latest
